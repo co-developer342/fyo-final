@@ -1,0 +1,73 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Build directories
+client/build/
+server/build/
+
+# Environment files
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# React
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+*.cache
+.envrc
+.venv
+
+# Miscellaneous
+.DS_Store
+*.pem
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Debugger
+.vscode/
+
+# Local Firebase cache
+.firebaserc
+firebase-debug.log
+
+# Build outputs
+dist/
+build/
